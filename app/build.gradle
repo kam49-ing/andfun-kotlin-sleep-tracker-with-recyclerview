@@ -21,7 +21,7 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'androidx.navigation.safeargs'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     defaultConfig {
         applicationId "com.example.android.trackmysleepqualityrecyclerview"
         minSdkVersion 19
@@ -42,6 +42,7 @@ android {
     buildFeatures {
         dataBinding true
     }
+    buildToolsVersion '31.0.0'
 
 }
 
